@@ -1,14 +1,8 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class Animal {
 
-    //variables for animal position
+    //variables for animal
     private int xpos;
     private int ypos;
-
-    //public int[] getPos() {return pos;}
-    //public void setPos(int[] pos) {this.pos = pos;}
 
     //private int[] pos = {xpos, ypos};
     private String animalYell;
@@ -21,12 +15,13 @@ public class Animal {
         this.setAnimalName(animalName);
     }
 
-    //setters for Animal
+    //setter for Animal
     public void setXpos(int xpos) {this.xpos = xpos;}
     public void setYpos(int ypos) {this.ypos = ypos;}
     public void setAnimalYell(String animalYell) {this.animalYell = animalYell;}
     public void setAnimalName(String animalName) {this.animalName = animalName;}
-    //getters for Animal
+
+    //getter for Animal
     public String getAnimalName() {return animalName;}
     public int getXpos() {return xpos;}
     public int getYpos() {return ypos;}
@@ -45,8 +40,8 @@ public class Animal {
         System.out.println(animalName + " moves to: " + xpos + "," + ypos);
     }
 
-    //rewriting toString method to print the name and position of the animal
-    public String toString() {
+    //Return string for animal
+    public String toAnimalPos() {
         return animalName + " is in: " + xpos + "," + ypos;
     }
     //public String toAnimPos() {return animalName +" is in:" + pos;}
