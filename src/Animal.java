@@ -41,7 +41,7 @@ public class Animal {
     }
 
     //Return string for animal
-    public String toAnimalPos() {
+    public String toString() {
         return animalName + " is in: " + xpos + "," + ypos;
     }
     //public String toAnimPos() {return animalName +" is in:" + pos;}

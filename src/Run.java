@@ -7,8 +7,8 @@ public class Run {
         Animal bunny = new Animal(0, 0, "Rabbit says: \"Oh not again!\"", "Rabbit");
 
         //Printout animal position at the start
-        System.out.println(snake.toAnimalPos());
-        System.out.println(bunny.toAnimalPos());
+        System.out.println(snake);
+        System.out.println(bunny);
 
         //While cycle that makes the animals move until they are in the same cell
         while(bunny.getXpos() != snake.getXpos() && bunny.getYpos() != snake.getYpos()) {
