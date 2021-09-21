@@ -1,14 +1,8 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class animal {
 
     //variables for animal
     private int xpos;
     private int ypos;
-
-    //public int[] getPos() {return pos;}
-    //public void setPos(int[] pos) {this.pos = pos;}
 
     //private int[] pos = {xpos, ypos};
     private String animalYell;
@@ -26,6 +20,7 @@ public class animal {
     public void setYpos(int ypos) {this.ypos = ypos;}
     public void setAnimalYell(String animalYell) {this.animalYell = animalYell;}
     public void setAnimalName(String animalName) {this.animalName = animalName;}
+
     //getter for Animal
     public String getAnimalName() {return animalName;}
     public int getXpos() {return xpos;}
