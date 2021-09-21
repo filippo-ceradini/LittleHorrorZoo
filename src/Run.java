@@ -3,8 +3,8 @@ public class Run {
     public static void main(String[] args) {
 
         //Adding the two animals with their attributes
-        animal snake = new animal(9, 9, "Snake says: \"Yo dead bunny!\"", "Snake");
-        animal bunny = new animal(0, 0, "Rabbit says: \"Oh not again!\"", "Rabbit");
+        Animal snake = new Animal(9, 9, "Snake says: \"Yo dead bunny!\"", "Snake");
+        Animal bunny = new Animal(0, 0, "Rabbit says: \"Oh not again!\"", "Rabbit");
 
         //Printout animal position at the start
         System.out.println(snake.toAnimalPos());

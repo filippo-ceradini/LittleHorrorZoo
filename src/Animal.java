@@ -1,4 +1,4 @@
-public class animal {
+public class Animal {
 
     //variables for animal
     private int xpos;
@@ -8,7 +8,7 @@ public class animal {
     private String animalYell;
     private String animalName;
 
-    public animal(int xpos, int ypos, String animalYell, String animalName) {
+    public Animal(int xpos, int ypos, String animalYell, String animalName) {
         this.setXpos(xpos);
         this.setYpos(ypos);
         this.setAnimalYell(animalYell);
